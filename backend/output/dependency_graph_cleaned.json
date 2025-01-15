@@ -279,16 +279,14 @@
     {
       "id": "model 2",
       "originalIds": [
-        "model 2",
-        "model_2"
+        "model 2"
       ],
       "type": "Rule"
     },
     {
       "id": "REGULATION 2019",
       "originalIds": [
-        "REGULATION\n2019",
-        "REGULATION_2019"
+        "REGULATION\n2019"
       ],
       "type": "Rule"
     },
@@ -296,7 +294,6 @@
       "id": "Regulation 208",
       "originalIds": [
         "Regulation 208",
-        "Regulation_208",
         "Regulation \n208"
       ],
       "type": "Regulation"
@@ -305,6 +302,13 @@
       "id": "Insurance REGULATION 2019",
       "originalIds": [
         "Insurance \nREGULATION\n2019"
+      ],
+      "type": "Rule"
+    },
+    {
+      "id": "Insurance  REGULATION 2019",
+      "originalIds": [
+        "Insurance__REGULATION_2019"
       ],
       "type": "Rule"
     },
@@ -479,19 +483,19 @@
       "target": "model 2"
     },
     {
-      "source": "model 2",
+      "source": "MDL-2",
       "target": "REGULATION 2019"
     },
     {
-      "source": "model 2",
+      "source": "MDL-2",
       "target": "Regulation 208"
     },
     {
-      "source": "Regulation 208",
+      "source": "MDL-2",
       "target": "Insurance REGULATION 2019"
     },
     {
-      "source": "Regulation 208",
+      "source": "MDL-2",
       "target": "Insurance Regulation 208"
     },
     {

@@ -687,3 +687,66 @@ Regulation 278: https://selfstudyce.brokered.net/PDF/Annuity/The%20Advisors%20Gu
 2025-01-15 18:45:43,320 - INFO - file_cache is only supported with oauth2client<4.0.0
 2025-01-15 18:45:45,639 - INFO - Level 3 - Found URL for reference REGULATION
 2019: https://content.naic.org/sites/default/files/inline-files/JIR-ZA-39-10-EL.pdf
+2025-01-16 00:12:19,693 - INFO - Level 0 - Found references: ['Regulation 60', 'Regulation 34', 'Regulation 77']
+2025-01-16 00:12:19,704 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:12:27,171 - INFO - Level 0 - Found URL for reference Regulation 60: https://content.naic.org/sites/default/files/inline-files/MDL-613.pdf
+2025-01-16 00:12:30,016 - INFO - Level 1 - Found references: ['Model Regulation \n \n613', 'model 582', 'Regulation \n \n613', 'Regulation 70', 'Regulation 60']
+2025-01-16 00:12:30,022 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:12:32,027 - INFO - Level 1 - Found URL for reference Model Regulation 
+ 
+613: https://selfstudyce.brokered.net/PDF/Annuity/The%20Advisors%20Guide%20to%20Annuities%20and%20Ethical%20Practices.pdf
+2025-01-16 00:12:50,093 - INFO - Level 2 - Found references: ['Model Regulation #275', 'Model Regulation 278', 'Model \nRegulation 278', 'Model Regulation 613', 'MDL-278', 'MDL-582', 'MDL-245', 'MDL-613', 'MDL-275', 'Model 245', 'Model 275', 'Model 270', 'Model 278', 'Rule 2821', 'Rule 2330', 'Rule 2111', 'Rule 2090', 'Rule 4512', 'Rule 2165', 'Rule 3030', 'Rule 3040', 'Rule 2310', 'Rule 405', 'Rule 3110', 'rule \n \n4', 'Rule 187', 'Regulation 187', 'Regulation 278', 'Regulation 613', 'Rule \n2165', 'Rule \n4512', 'Rule 17', 'Rule \n17']
+2025-01-16 00:12:50,101 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:12:53,355 - INFO - Level 2 - Found URL for reference Model Regulation #275: https://www.cfp.net/-/media/files/cfp-board/standards-and-ethics/compliance-resources/naic-comparison-guide.pdf
+2025-01-16 00:12:59,108 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:02,737 - INFO - Level 2 - Found URL for reference Model Regulation 278: https://selfstudyce.brokered.net/PDF/Annuity/The%20Advisors%20Guide%20to%20Annuities%20and%20Ethical%20Practices.pdf
+2025-01-16 00:13:21,138 - INFO - Level 3 - Found references: ['Model Regulation #275', 'Model Regulation 278', 'Model \nRegulation 278', 'Model Regulation 613', 'MDL-278', 'MDL-582', 'MDL-245', 'MDL-613', 'MDL-275', 'Model 245', 'Model 275', 'Model 270', 'Model 278', 'Rule 2821', 'Rule 2330', 'Rule 2111', 'Rule 2090', 'Rule 4512', 'Rule 2165', 'Rule 3030', 'Rule 3040', 'Rule 2310', 'Rule 405', 'Rule 3110', 'rule \n \n4', 'Rule 187', 'Regulation 187', 'Regulation 278', 'Regulation 613', 'Rule \n2165', 'Rule \n4512', 'Rule 17', 'Rule \n17']
+2025-01-16 00:13:21,145 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:23,509 - INFO - Level 3 - Found URL for reference Model 
+Regulation 278: https://selfstudyce.brokered.net/PDF/Annuity/The%20Advisors%20Guide%20to%20Annuities%20and%20Ethical%20Practices.pdf
+2025-01-16 00:13:34,489 - INFO - Level 4 - Found references: ['Model Regulation #275', 'Model Regulation 278', 'Model \nRegulation 278', 'Model Regulation 613', 'MDL-278', 'MDL-582', 'MDL-245', 'MDL-613', 'MDL-275', 'Model 245', 'Model 275', 'Model 270', 'Model 278', 'Rule 2821', 'Rule 2330', 'Rule 2111', 'Rule 2090', 'Rule 4512', 'Rule 2165', 'Rule 3030', 'Rule 3040', 'Rule 2310', 'Rule 405', 'Rule 3110', 'rule \n \n4', 'Rule 187', 'Regulation 187', 'Regulation 278', 'Regulation 613', 'Rule \n2165', 'Rule \n4512', 'Rule 17', 'Rule \n17']
+2025-01-16 00:13:34,497 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:36,709 - INFO - Level 4 - Found URL for reference Model Regulation 613: https://selfstudyce.brokered.net/PDF/Annuity/The%20Advisors%20Guide%20to%20Annuities%20and%20Ethical%20Practices.pdf
+2025-01-16 00:13:42,151 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:44,594 - INFO - Level 4 - Found URL for reference MDL-278: https://content.naic.org/sites/default/files/inline-files/MDL-278.pdf
+2025-01-16 00:13:45,415 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:47,339 - INFO - Level 1 - Found URL for reference model 582: https://content.naic.org/sites/default/files/committees-pending-action-actuarial-guideline-xlix-a-230224.pdf
+2025-01-16 00:13:48,128 - INFO - Level 2 - Found references: []
+2025-01-16 00:13:48,135 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:50,321 - INFO - Level 0 - Found URL for reference Regulation 34: https://content.naic.org/sites/default/files/jir-zb-38-01-journal-regulation.pdf
+2025-01-16 00:13:54,234 - INFO - Level 1 - Found references: ['Model 1', 'Model 2', 'model 1', 'model 2', 'REGULATION\n2019', 'Regulation 208', 'Regulation \n208', 'Insurance \nREGULATION\n2019', 'Insurance Regulation 208', 'Insurance Regulation \n208', 'Insurance \nRegulation 208']
+2025-01-16 00:13:54,240 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:13:56,913 - INFO - Level 1 - Found URL for reference Model 1: https://content.naic.org/sites/default/files/inline-files/MDL-275.pdf
+2025-01-16 00:13:58,312 - INFO - Level 2 - Found references: ['Model Regulation \n \n275', 'Regulation \n \n275']
+2025-01-16 00:13:58,322 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:01,343 - INFO - Level 2 - Found URL for reference Model Regulation 
+ 
+275: https://www.cfp.net/-/media/files/cfp-board/standards-and-ethics/compliance-resources/naic-comparison-guide.pdf
+2025-01-16 00:14:01,484 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:03,683 - INFO - Level 2 - Found URL for reference Regulation 
+ 
+275: https://www.cfp.net/-/media/files/cfp-board/standards-and-ethics/compliance-resources/naic-comparison-guide.pdf
+2025-01-16 00:14:03,872 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:06,125 - INFO - Level 1 - Found URL for reference Model 2: https://content.naic.org/sites/default/files/jir-zb-38-01-journal-regulation.pdf
+2025-01-16 00:14:09,473 - INFO - Level 2 - Found references: ['Model 1', 'Model 2', 'model 1', 'model 2', 'REGULATION\n2019', 'Regulation 208', 'Regulation \n208', 'Insurance \nREGULATION\n2019', 'Insurance Regulation 208', 'Insurance Regulation \n208', 'Insurance \nRegulation 208']
+2025-01-16 00:14:09,479 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:11,628 - INFO - Level 2 - Found URL for reference model 1: https://content.naic.org/sites/default/files/inline-files/MDL-275.pdf
+2025-01-16 00:14:12,877 - INFO - Level 3 - Found references: ['Model Regulation \n \n275', 'Regulation \n \n275']
+2025-01-16 00:14:12,884 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:15,393 - INFO - Level 2 - Found URL for reference model 2: https://content.naic.org/sites/default/files/jir-zb-38-01-journal-regulation.pdf
+2025-01-16 00:14:21,891 - INFO - Level 3 - Found references: ['Model 1', 'Model 2', 'model 1', 'model 2', 'REGULATION\n2019', 'Regulation 208', 'Regulation \n208', 'Insurance \nREGULATION\n2019', 'Insurance Regulation 208', 'Insurance Regulation \n208', 'Insurance \nRegulation 208']
+2025-01-16 00:14:21,900 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:23,880 - INFO - Level 3 - Found URL for reference REGULATION
+2019: https://content.naic.org/sites/default/files/inline-files/JIR-ZA-39-10-EL.pdf
+2025-01-16 00:14:25,584 - INFO - Level 4 - Found references: []
+2025-01-16 00:14:25,588 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:27,450 - INFO - Level 3 - Found URL for reference Regulation 208: https://content.naic.org/sites/default/files/jir-zb-38-01-journal-regulation.pdf
+2025-01-16 00:14:31,357 - INFO - Level 4 - Found references: ['Model 1', 'Model 2', 'model 1', 'model 2', 'REGULATION\n2019', 'Regulation 208', 'Regulation \n208', 'Insurance \nREGULATION\n2019', 'Insurance Regulation 208', 'Insurance Regulation \n208', 'Insurance \nRegulation 208']
+2025-01-16 00:14:31,367 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:33,691 - INFO - Level 4 - Found URL for reference Regulation 
+208: https://content.naic.org/sites/default/files/jir-zb-38-01-journal-regulation.pdf
+2025-01-16 00:14:34,372 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-01-16 00:14:36,612 - INFO - Level 4 - Found URL for reference Insurance 
+REGULATION
+2019: https://content.naic.org/sites/default/files/inline-files/JIR-ZA-39-10-EL.pdf
+2025-01-16 00:14:37,286 - INFO - Dependency tree saved to output/dependency_graph.json
