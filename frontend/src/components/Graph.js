@@ -21,18 +21,20 @@ const Graph2D = () => {
     }, []);
 
     return (
-        <div id="graph"
-            style={{
-                width: '100%',
-                height: '100vh',
-                border: '2px solid #4CAF50',
-                borderRadius: '10px',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                backgroundColor: '#f9f9f9',
-                overflow: 'hidden',
-            }}
-        >
-            {/* Graph */}
+        <div style={{ padding: '20px' }}>
+            <h1 style={{ textAlign: 'center', color: '#4CAF50' }}>2D View</h1>
+            <div id="graph"
+                style={{
+                    width: '100%',
+                    height: '80vh',
+                    border: '2px solid #4CAF50',
+                    borderRadius: '10px',
+                    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                    backgroundColor: '#f9f9f9',
+                    overflow: 'hidden',
+                }}
+            >
+            </div>
         </div>
     );
 };
@@ -58,18 +60,19 @@ const Graph3D = () => {
     }, []);
 
     return (
-        <div
-            id="3d-graph"
-            style={{
-                width: '100%',
-                height: '100vh',
-                border: '2px solid #4CAF50',
-                borderRadius: '10px',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-                backgroundColor: '#f9f9f9',
-                overflow: 'hidden',
-            }}
-        >3D </div>
+        <div style={{ padding: '20px' }}>
+            <h1 style={{ textAlign: 'center', color: '#4CAF50' }}>3D View</h1>
+            <div id="3d-graph"
+                style={{
+                    width: '100%',
+                    height: '80vh',
+                    border: '2px solid #4CAF50',
+                    borderRadius: '10px',
+                    overflow: 'hidden',
+                }}
+            >
+            </div>
+        </div>
     );
 };
 
