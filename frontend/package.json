@@ -11,7 +11,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
- "homepage": "https://github.com/Kiran-KumarR/forced-graph.git",
+ "homepage": "https://kiran-kumarr.github.io/forced-graph/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
