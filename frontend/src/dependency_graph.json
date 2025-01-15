@@ -1,0 +1,416 @@
+{
+    "nodes": [
+      {
+        "id": "MDL-570"
+      },
+      {
+        "id": "Regulation 60"
+      },
+      {
+        "id": "Regulation_60"
+      },
+      {
+        "id": "Model Regulation \n \n613"
+      },
+      {
+        "id": "Model_Regulation____613"
+      },
+      {
+        "id": "Model Regulation #275"
+      },
+      {
+        "id": "Model Regulation 278"
+      },
+      {
+        "id": "Model_Regulation_278"
+      },
+      {
+        "id": "Model \nRegulation 278"
+      },
+      {
+        "id": "Model__Regulation_278"
+      },
+      {
+        "id": "Model Regulation 613"
+      },
+      {
+        "id": "MDL-278"
+      },
+      {
+        "id": "MDL-582"
+      },
+      {
+        "id": "MDL-245"
+      },
+      {
+        "id": "MDL-613"
+      },
+      {
+        "id": "MDL-275"
+      },
+      {
+        "id": "Model 245"
+      },
+      {
+        "id": "Model 275"
+      },
+      {
+        "id": "Model 270"
+      },
+      {
+        "id": "Model 278"
+      },
+      {
+        "id": "Rule 2821"
+      },
+      {
+        "id": "Rule 2330"
+      },
+      {
+        "id": "Rule 2111"
+      },
+      {
+        "id": "Rule 2090"
+      },
+      {
+        "id": "Rule 4512"
+      },
+      {
+        "id": "Rule 2165"
+      },
+      {
+        "id": "Rule 3030"
+      },
+      {
+        "id": "Rule 3040"
+      },
+      {
+        "id": "Rule 2310"
+      },
+      {
+        "id": "Rule 405"
+      },
+      {
+        "id": "Rule 3110"
+      },
+      {
+        "id": "rule \n \n4"
+      },
+      {
+        "id": "Rule 187"
+      },
+      {
+        "id": "Regulation 187"
+      },
+      {
+        "id": "Regulation 278"
+      },
+      {
+        "id": "Regulation 613"
+      },
+      {
+        "id": "Rule \n2165"
+      },
+      {
+        "id": "Rule \n4512"
+      },
+      {
+        "id": "Rule 17"
+      },
+      {
+        "id": "Rule \n17"
+      },
+      {
+        "id": "model 582"
+      },
+      {
+        "id": "model_582"
+      },
+      {
+        "id": "Regulation \n \n613"
+      },
+      {
+        "id": "Regulation 70"
+      },
+      {
+        "id": "Regulation 34"
+      },
+      {
+        "id": "Regulation_34"
+      },
+      {
+        "id": "Model 1"
+      },
+      {
+        "id": "Model_1"
+      },
+      {
+        "id": "Model Regulation \n \n275"
+      },
+      {
+        "id": "Regulation \n \n275"
+      },
+      {
+        "id": "Model 2"
+      },
+      {
+        "id": "Model_2"
+      },
+      {
+        "id": "model 1"
+      },
+      {
+        "id": "model_1"
+      },
+      {
+        "id": "model 2"
+      },
+      {
+        "id": "model_2"
+      },
+      {
+        "id": "REGULATION\n2019"
+      },
+      {
+        "id": "REGULATION_2019"
+      },
+      {
+        "id": "Regulation 208"
+      },
+      {
+        "id": "Regulation_208"
+      },
+      {
+        "id": "Regulation \n208"
+      },
+      {
+        "id": "Insurance \nREGULATION\n2019"
+      },
+      {
+        "id": "Insurance Regulation 208"
+      },
+      {
+        "id": "Insurance Regulation \n208"
+      },
+      {
+        "id": "Insurance \nRegulation 208"
+      },
+      {
+        "id": "Regulation 77"
+      }
+    ],
+    "links": [
+      {
+        "source": "MDL-570",
+        "target": "Regulation 60"
+      },
+      {
+        "source": "Regulation_60",
+        "target": "Model Regulation \n \n613"
+      },
+      {
+        "source": "Model_Regulation____613",
+        "target": "Model Regulation #275"
+      },
+      {
+        "source": "Model_Regulation____613",
+        "target": "Model Regulation 278"
+      },
+      {
+        "source": "Model_Regulation_278",
+        "target": "Model \nRegulation 278"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Model Regulation 613"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "MDL-278"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "MDL-582"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "MDL-245"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "MDL-613"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "MDL-275"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Model 245"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Model 275"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Model 270"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Model 278"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2821"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2330"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2111"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2090"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 4512"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2165"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 3030"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 3040"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 2310"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 405"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 3110"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "rule \n \n4"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 187"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Regulation 187"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Regulation 278"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Regulation 613"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule \n2165"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule \n4512"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule 17"
+      },
+      {
+        "source": "Model__Regulation_278",
+        "target": "Rule \n17"
+      },
+      {
+        "source": "Regulation_60",
+        "target": "model 582"
+      },
+      {
+        "source": "Regulation_60",
+        "target": "Regulation \n \n613"
+      },
+      {
+        "source": "Regulation_60",
+        "target": "Regulation 70"
+      },
+      {
+        "source": "MDL-570",
+        "target": "Regulation 34"
+      },
+      {
+        "source": "Regulation_34",
+        "target": "Model 1"
+      },
+      {
+        "source": "Model_1",
+        "target": "Model Regulation \n \n275"
+      },
+      {
+        "source": "Model_1",
+        "target": "Regulation \n \n275"
+      },
+      {
+        "source": "Regulation_34",
+        "target": "Model 2"
+      },
+      {
+        "source": "Model_2",
+        "target": "model 1"
+      },
+      {
+        "source": "Model_2",
+        "target": "model 2"
+      },
+      {
+        "source": "model_2",
+        "target": "REGULATION\n2019"
+      },
+      {
+        "source": "model_2",
+        "target": "Regulation 208"
+      },
+      {
+        "source": "Regulation_208",
+        "target": "Regulation \n208"
+      },
+      {
+        "source": "Regulation_208",
+        "target": "Insurance \nREGULATION\n2019"
+      },
+      {
+        "source": "Regulation_208",
+        "target": "Insurance Regulation 208"
+      },
+      {
+        "source": "Regulation_208",
+        "target": "Insurance Regulation \n208"
+      },
+      {
+        "source": "Regulation_208",
+        "target": "Insurance \nRegulation 208"
+      },
+      {
+        "source": "MDL-570",
+        "target": "Regulation 77"
+      }
+    ]
+  }
