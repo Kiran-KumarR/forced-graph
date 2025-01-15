@@ -1,4 +1,4 @@
-# Force Graph Project
+# Force Graph Project 
 
 ## Description
 
@@ -40,4 +40,8 @@ MDL-570 is a life insurance regulation that is dependent on other regulations, w
 
 ## Deployed URL
 
-The project is deployed at: [https://kiran-kumarr.github.io/forced-graph/](https://kiran-kumarr.github.io/forced-graph/)
+1. To deploy the development server:
+    ```sh
+    npm run deploy
+    ```
+2. The project is deployed at: [https://kiran-kumarr.github.io/forced-graph/](https://kiran-kumarr.github.io/forced-graph/)
