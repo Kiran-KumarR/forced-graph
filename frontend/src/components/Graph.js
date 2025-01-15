@@ -14,12 +14,13 @@ const Graph2D = () => {
                 .linkTarget('target')
                 .nodeLabel((node) => node.id)
                 .linkWidth(2)
+                .linkLabel((link) => `Relation: ${link.source.id} → ${link.target.id}`)
                 .nodeAutoColorBy('id')
-                .nodeRelSize(5);
+                .nodeRelSize(5)
             return () => graph._destructor && graph._destructor();
         }
     }, []);
-
+    
     return (
         <div style={{ padding: '20px' }}>
             <h1 style={{ textAlign: 'center', color: '#4CAF50' }}>2D View</h1>
@@ -52,6 +53,7 @@ const Graph3D = () => {
                 .nodeAutoColorBy('id')
                 .nodeRelSize(8)
                 .linkWidth(2)
+                .linkLabel((link) => `Relation: ${link.source.id} → ${link.target.id}`)
                 .linkDirectionalArrowLength(5)
                 .linkDirectionalArrowRelPos(1);
             return () => graph._destructor && graph._destructor();
