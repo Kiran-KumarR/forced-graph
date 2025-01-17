@@ -20,7 +20,7 @@ CLEANED_OUTPUT_FILE = "output/cleaned_dependency_graph.json"  # New output file
 SEARCH_DELAY = 2
 
 def extract_regulation_references(pdf_path):
-    """Extract references to other regulations"""
+    # Extract references to other regulations
     regulations = []
     try:
         with fitz.open(pdf_path) as doc:
@@ -63,7 +63,7 @@ def google_search(query, num_results=10):
     # Search for a query using Google Custom Search API with rate limiting
     try:
         service = build("customsearch", "v1", developerKey=API_KEY)
-        time.sleep(SEARCH_DELAY)  # Rate limiting
+        time.sleep(SEARCH_DELAY)
         res = service.cse().list(q=query, cx=CSE_ID, num=num_results).execute()
         return res.get("items", [])
     except Exception as e:
@@ -71,7 +71,7 @@ def google_search(query, num_results=10):
         return []
 
 def download_pdf(url, output_dir, name):
-    """Download a PDF from the given URL with retry logic."""
+    # Download a PDF from the given URL with retry logic
     max_retries = 3
     for attempt in range(max_retries):
         try:
@@ -89,43 +89,14 @@ def download_pdf(url, output_dir, name):
                 time.sleep(2 ** attempt)
     return None
 
-def download_initial_mdl():
-    """Download MDL-570 if it doesn't exist"""
-    if not os.path.exists("downloads/initial"):
-        os.makedirs("downloads/initial")
-    
-    initial_path = "downloads/initial/MDL-570.pdf"
-    if not os.path.exists(initial_path):
-        print("Downloading MDL-570...")
-        try:
-            query = "NAIC MDL-570 life insurance regulation filetype:pdf"
-            for url in search(query, num_results=10):
-                if url.lower().endswith('.pdf'):
-                    response = requests.get(url)
-                    if response.status_code == 200:
-                        with open(initial_path, 'wb') as f:
-                            f.write(response.content)
-                        print("Successfully downloaded MDL-570")
-                        break
-        except Exception as e:
-            print(f"Error downloading MDL-570: {e}")
-    return initial_path
-
 def clean_regulation_id(regulation_id):
-    # Remove extra whitespace and newlines
-    cleaned = ' '.join(regulation_id.split())
-    
-    # Replace underscores with spaces
+    cleaned = ' '.join(regulation_id.split())    
     cleaned = cleaned.replace('_', ' ')
     
     # Standardize "Model Regulation" format
     cleaned = cleaned.replace('Model Regulation #', 'MDL-')
     cleaned = cleaned.replace('Model Regulation', 'MDL-')
     cleaned = cleaned.replace('Model ', 'MDL-')
-    
-    # Remove any remaining special characters
-    cleaned = ''.join(c for c in cleaned if c.isalnum() or c in ['-', ' '])
-    
     return cleaned
 
 def clean_graph_data(data):
@@ -172,7 +143,7 @@ def clean_graph_data(data):
     }
 
 def process_regulation_tree(pdf_path, level=0, processed_refs=None, graph_data=None):
-    """Process the regulation and its dependencies recursively."""
+    # Process the regulation and its dependencies recursively
     if level >= MAX_LEVELS:
         return graph_data
     
@@ -192,7 +163,8 @@ def process_regulation_tree(pdf_path, level=0, processed_refs=None, graph_data=N
     if current_node not in [node['id'] for node in graph_data['nodes']]:
         graph_data['nodes'].append({"id": current_node})
 
-    print(f"\nLevel {level} - Found {len(references)} references in {current_node}")
+    print(f"\nLevel {level} - Found {len(references)} references in {current_node}\n")
+    print(f'\n Level {level } - References: {references}\n')
     logging.info(f"Level {level} - Found references: {references}")
     
     downloaded_count = 0
@@ -222,7 +194,7 @@ def process_regulation_tree(pdf_path, level=0, processed_refs=None, graph_data=N
     return graph_data
 
 def save_results(graph_data, output_file):
-    """Save both the original and cleaned graph data."""
+    # Save both the original and cleaned graph data to JSON files
     try:
         # Save original graph data
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -244,11 +216,7 @@ if __name__ == "__main__":
     try:
         print("------Starting Regulation Dependency Analysis--------")
         
-        # Create necessary directories
-        for directory in ["downloads/initial", "output"]:
-            os.makedirs(directory, exist_ok=True)
-        
-        initial_pdf = download_initial_mdl()
+        initial_pdf='downloads/initial/MDL-570.pdf'
         if os.path.exists(initial_pdf):
             graph_data = process_regulation_tree(initial_pdf)
             save_results(graph_data, OUTPUT_FILE)
@@ -256,9 +224,9 @@ if __name__ == "__main__":
             print(f"Cleaned data saved to: {OUTPUT_FILE.replace('.json', '_cleaned.json')}")
             print("--------Dependency analysis complete--------")
         else:
-            logging.error("Could not locate or download MDL-570.")
-            print("Error: Could not locate or download MDL-570.")
+            logging.error("Could not locate MDL-570.")
+            print("Error: Could not locate  MDL-570.")
             
     except Exception as e:
-        logging.error(f"Fatal error during execution: {e}")
-        print(f"Fatal error during execution: {e}")
+        logging.error(f" error during execution: {e}")
+        print(f" error during execution: {e}")

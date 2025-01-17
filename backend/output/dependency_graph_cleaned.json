@@ -31,27 +31,18 @@
       "type": "MDL"
     },
     {
-      "id": "MDL-275",
-      "originalIds": [
-        "Model Regulation #275",
-        "MDL-275",
-        "Model 275"
-      ],
-      "type": "MDL"
-    },
-    {
       "id": "MDL- 278",
       "originalIds": [
         "Model Regulation 278",
         "Model_Regulation_278",
-        "Model \nRegulation 278"
+        "Model Regulation \n278"
       ],
       "type": "MDL"
     },
     {
-      "id": "MDL- Regulation 278",
+      "id": "MDL-  278",
       "originalIds": [
-        "Model__Regulation_278"
+        "Model_Regulation__278"
       ],
       "type": "MDL"
     },
@@ -86,6 +77,21 @@
       "type": "MDL"
     },
     {
+      "id": "MDL-275",
+      "originalIds": [
+        "MDL-275",
+        "Model 275"
+      ],
+      "type": "MDL"
+    },
+    {
+      "id": "MDL-302",
+      "originalIds": [
+        "Model \n \n302"
+      ],
+      "type": "MDL"
+    },
+    {
       "id": "MDL-270",
       "originalIds": [
         "Model 270"
@@ -95,14 +101,16 @@
     {
       "id": "Rule 2821",
       "originalIds": [
-        "Rule 2821"
+        "Rule 2821",
+        "Rule \n2821"
       ],
       "type": "Rule"
     },
     {
       "id": "Rule 2330",
       "originalIds": [
-        "Rule 2330"
+        "Rule 2330",
+        "Rule \n2330"
       ],
       "type": "Rule"
     },
@@ -160,7 +168,8 @@
     {
       "id": "Rule 405",
       "originalIds": [
-        "Rule 405"
+        "Rule 405",
+        "Rule \n405"
       ],
       "type": "Rule"
     },
@@ -195,7 +204,8 @@
     {
       "id": "Regulation 278",
       "originalIds": [
-        "Regulation 278"
+        "Regulation 278",
+        "Regulation \n278"
       ],
       "type": "Regulation"
     },
@@ -210,8 +220,7 @@
     {
       "id": "Rule 17",
       "originalIds": [
-        "Rule 17",
-        "Rule \n17"
+        "Rule 17"
       ],
       "type": "Rule"
     },
@@ -279,21 +288,38 @@
     {
       "id": "model 2",
       "originalIds": [
-        "model 2"
+        "model 2",
+        "model_2"
       ],
       "type": "Rule"
     },
     {
       "id": "REGULATION 2019",
       "originalIds": [
-        "REGULATION\n2019"
+        "REGULATION\n2019",
+        "REGULATION_2019"
       ],
       "type": "Rule"
+    },
+    {
+      "id": "Regulation 2020",
+      "originalIds": [
+        "Regulation 2020"
+      ],
+      "type": "Regulation"
+    },
+    {
+      "id": "Insurance Regulation 2020",
+      "originalIds": [
+        "Insurance Regulation 2020"
+      ],
+      "type": "Regulation"
     },
     {
       "id": "Regulation 208",
       "originalIds": [
         "Regulation 208",
+        "Regulation_208",
         "Regulation \n208"
       ],
       "type": "Regulation"
@@ -302,13 +328,6 @@
       "id": "Insurance REGULATION 2019",
       "originalIds": [
         "Insurance \nREGULATION\n2019"
-      ],
-      "type": "Rule"
-    },
-    {
-      "id": "Insurance  REGULATION 2019",
-      "originalIds": [
-        "Insurance__REGULATION_2019"
       ],
       "type": "Rule"
     },
@@ -340,106 +359,106 @@
     },
     {
       "source": "MDL-    613",
-      "target": "MDL-275"
-    },
-    {
-      "source": "MDL-    613",
       "target": "MDL- 278"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL- 613"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL-278"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL-582"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL-245"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL-613"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "MDL-275"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
+      "target": "MDL-302"
+    },
+    {
+      "source": "MDL-  278",
       "target": "MDL-270"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2821"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2330"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2111"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2090"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 4512"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2165"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 3030"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 3040"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 2310"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 405"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 3110"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "rule 4"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 187"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Regulation 187"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Regulation 278"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Regulation 613"
     },
     {
-      "source": "MDL- Regulation 278",
+      "source": "MDL-  278",
       "target": "Rule 17"
     },
     {
@@ -483,19 +502,27 @@
       "target": "model 2"
     },
     {
-      "source": "MDL-2",
+      "source": "model 2",
       "target": "REGULATION 2019"
     },
     {
-      "source": "MDL-2",
+      "source": "REGULATION 2019",
+      "target": "Regulation 2020"
+    },
+    {
+      "source": "REGULATION 2019",
+      "target": "Insurance Regulation 2020"
+    },
+    {
+      "source": "model 2",
       "target": "Regulation 208"
     },
     {
-      "source": "MDL-2",
+      "source": "Regulation 208",
       "target": "Insurance REGULATION 2019"
     },
     {
-      "source": "MDL-2",
+      "source": "Regulation 208",
       "target": "Insurance Regulation 208"
     },
     {
