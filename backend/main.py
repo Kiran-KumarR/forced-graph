@@ -164,7 +164,7 @@ def process_regulation_tree(pdf_path, level=0, processed_refs=None, graph_data=N
         graph_data['nodes'].append({"id": current_node})
 
     print(f"\nLevel {level} - Found {len(references)} references in {current_node}\n")
-    print(f'\n Level {level } - References: {references}\n')
+    print(f'\n Current Node :{current_node} - Level {level } - References: {references}\n')
     logging.info(f"Level {level} - Found references: {references}")
     
     downloaded_count = 0
