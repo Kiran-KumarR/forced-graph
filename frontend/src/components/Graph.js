@@ -12,11 +12,31 @@ const Graph2D = () => {
                 .nodeId('id')
                 .linkSource('source')
                 .linkTarget('target')
+                .linkTarget('target')
+                .nodeLabel((node) => node.id)
+                .linkTarget('target')                
                 .nodeLabel((node) => node.id)
                 .linkWidth(2)
                 .linkLabel((link) => `Relation: ${link.source.id} → ${link.target.id}`)
                 .nodeAutoColorBy('id')
                 .nodeRelSize(5)
+                .linkDirectionalArrowLength(5)
+                .linkDirectionalArrowRelPos(1)
+                .nodeCanvasObject((node, ctx,globalScale) => {
+                  const nodeRadius = 5; 
+                  ctx.beginPath();
+                  ctx.arc(node.x, node.y, nodeRadius, 0, 2 * Math.PI, false);
+                  ctx.fillStyle = node.color || 'gray'; 
+                  ctx.fill();
+                  ctx.strokeStyle = 'black'; 
+                  ctx.lineWidth = 1;
+                  ctx.stroke();
+                  const label = node.id;
+                  const fontSize = 10 / globalScale;
+                  ctx.font = `${fontSize}px Sans-Serif`;
+                  ctx.fillStyle = 'black';
+                  ctx.fillText(label, node.x + nodeRadius + 5, node.y + fontSize / 2);
+                });
             return () => graph._destructor && graph._destructor();
         }
     }, []);
@@ -45,7 +65,7 @@ const Graph3D = () => {
         const graphElement = document.getElementById('3d-graph');
         if (graphElement) {
             const graph = new ForceGraph3D(graphElement)
-                .graphData(graphData)
+              .graphData(graphData)
                 .nodeId('id')
                 .linkSource('source')
                 .linkTarget('target')
