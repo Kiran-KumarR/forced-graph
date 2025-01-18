@@ -28,9 +28,7 @@ const Graph2D = () => {
                   ctx.arc(node.x, node.y, nodeRadius, 0, 2 * Math.PI, false);
                   ctx.fillStyle = node.color || 'gray'; 
                   ctx.fill();
-                  ctx.strokeStyle = 'black'; 
                   ctx.lineWidth = 1;
-                  ctx.stroke();
                   const label = node.id;
                   const fontSize = 10 / globalScale;
                   ctx.font = `${fontSize}px Sans-Serif`;
